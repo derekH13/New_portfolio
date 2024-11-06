@@ -1,0 +1,77 @@
+.Home{
+
+    background-image: url(../../../images/fundoHero.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: max-content;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+    padding-top: 200px;
+    overflow: hidden;
+}
+
+.Home .imagem__eu{
+  position: absolute;
+  right: 180px;
+  bottom: 0px;
+}
+.Home .imagem__eu img{
+  height: 850px;
+}
+
+
+@media (max-width: 1024px) {
+  .Home{
+    background-image: url(../../../images/fundoHero.png);
+    padding-top: 20px;
+}
+
+.Home .imagem__eu{
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+}
+.Home .imagem__eu img{
+  height: auto;
+  width: 400px;
+}
+}
+
+@media (max-width: 697px) {
+  .Home{
+    background-image: url(../../../images/fundoHero.png);
+    padding-top: 20px;
+}
+
+.Home .imagem__eu{
+  position: absolute;
+  right: -100px;
+  bottom: 0px;
+}
+.Home .imagem__eu img{
+  height: auto;
+  width: 300px;
+}
+}
+
+
+@media (max-width: 380px) {
+  .Home{
+    background-image: url(../../../images/fundoHero.png);
+    padding-top: 20px;
+    min-height: 150vh;
+}
+
+.Home .imagem__eu{
+  position: absolute;
+  right: -100px;
+  bottom: 0px;
+}
+.Home .imagem__eu img{
+  height: auto;
+  width: 300px;
+}
+}
