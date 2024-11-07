@@ -65,7 +65,7 @@ export const projetosArray = [
       'tailwindcss',
       'html'
     ],
-    link: 'https://my-pokeapi-react.vercel.app/pagina-inicial',
+    link: 'https://my-rpg-seven.vercel.app/pagina-inicial',
     github: 'https://github.com/derekH13/my-rpg',
     flex: 'row-reverse'
   },
@@ -95,7 +95,7 @@ export const projetosArray = [
     descricao:
       'Criei este projeto de lista de tarefas (todolist), usei eventos com os quais ainda não tinha familiaridade, como o draggable. Infelizmente, o site não funciona bem em dispositivos móveis devido aos eventos que utilizei.',
     frameworks: ['javascript', 'css', 'typescript', 'tailwindcss', 'html'],
-    link: 'https://derekh13.github.io/meu-todoList/index.html',
+    link: 'https://projeto-ebac-mytec-65bq.vercel.app/pagina-Produtos',
     github: 'https://github.com/derekH13/meu-todoList',
     flex: 'row-reverse'
   }
