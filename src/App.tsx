@@ -4,11 +4,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './components/pages/Home/Home'
 import Projetos from './components/pages/Projetos/Projetos'
 import Navegation from './components/Component/Navegation/Navegation'
+import Dashboard from './components/pages/Dashboard/Dashboard'
 
 const rotas = createBrowserRouter([
   {
     path: '/',
-    element: <Home />
+    element: <Dashboard />
   },
   {
     path: '/projetos',

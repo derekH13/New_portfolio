@@ -26,7 +26,7 @@ const Curso = ({ nome, instituicao, descricao }: Props) => {
           {instituicao}
         </h1>
         <ContainerText>
-          <Text bold={400} color={Color.text} height={18}>
+          <Text bold={200} color={Color.text} height={18}>
             <h1>
               <span>Descrição: </span>
             </h1>

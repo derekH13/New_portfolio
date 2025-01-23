@@ -84,7 +84,14 @@ export const projetosArray = [
     title: 'TODO LIST',
     descricao:
       'Criei este projeto de lista de tarefas (todolist), usei eventos com os quais ainda não tinha familiaridade, como o draggable. Infelizmente, o site não funciona bem em dispositivos móveis devido aos eventos que utilizei.',
-    frameworks: ['javascript', 'css', 'typescript', 'tailwindcss', 'html'],
+    frameworks: [
+      'javascript',
+      'css',
+      'typescript',
+      'react',
+      'tailwindcss',
+      'html'
+    ],
     link: 'https://derekh13.github.io/meu-todoList/index.html',
     github: 'https://github.com/derekH13/meu-todoList',
     flex: 'row-reverse'
@@ -94,8 +101,35 @@ export const projetosArray = [
     title: 'Mytec',
     descricao:
       'Criei este projeto de lista de tarefas (todolist), usei eventos com os quais ainda não tinha familiaridade, como o draggable. Infelizmente, o site não funciona bem em dispositivos móveis devido aos eventos que utilizei.',
-    frameworks: ['javascript', 'css', 'typescript', 'tailwindcss', 'html'],
-    link: 'https://projeto-ebac-mytec-65bq.vercel.app/pagina-Produtos',
+    frameworks: [
+      'javascript',
+      'css',
+      'typescript',
+      'react',
+      'tailwindcss',
+      'html'
+    ],
+    link: 'https://projeto-ebac-mytec.vercel.app/pagina-inicial',
+    github: 'https://github.com/derekH13/meu-todoList',
+    flex: 'row-reverse'
+  },
+  {
+    img: './assets/Twitter post - 17.png',
+    title: 'Twitter',
+    descricao:
+      'Criei este projeto de lista de tarefas (todolist), usei eventos com os quais ainda não tinha familiaridade, como o draggable. Infelizmente, o site não funciona bem em dispositivos móveis devido aos eventos que utilizei.',
+    frameworks: [
+      'javascript',
+      'css',
+      'typescript',
+      'tailwindcss',
+      'styled-components',
+      'html',
+      'react',
+      'django',
+      'mysql'
+    ],
+    link: 'https://clone-twitter-front.vercel.app/',
     github: 'https://github.com/derekH13/meu-todoList',
     flex: 'row-reverse'
   }

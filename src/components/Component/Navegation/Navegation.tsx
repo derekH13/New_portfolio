@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { NavStyle, StyleLi } from './styled'
 import { useNavigate } from 'react-router-dom'
-import ModalSocial from '../../containers/TodosProjetos/ModalSocial/ModalSocial'
 
 type propsPagina = {
   pagina: '' | 'cursos' | 'projetos' | 'sociais'
@@ -76,8 +75,6 @@ const Navegation = ({ pagina }: propsPagina) => {
           </StyleLi>
         </ul>
       </NavStyle>
-
-      {abrirModal && <ModalSocial onclick={() => fecharModal()} />}
     </>
   )
 }

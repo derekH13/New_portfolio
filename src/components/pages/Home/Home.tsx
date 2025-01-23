@@ -11,7 +11,6 @@ import { EstyledTitulo, Styledtexto } from './styled'
 const Home = () => {
   return (
     <section className="Home">
-      <Navegation pagina="" />
       <Globalcss />
       <Interface>
         <motion.div

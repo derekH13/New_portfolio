@@ -6,21 +6,8 @@ type props = {
 }
 
 export const EstiloWindown = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  z-index: 2000;
+    width: 100%;
+
 
   .modalSocial {
     background: rgba(255, 255, 255, 0.1);
@@ -30,8 +17,8 @@ export const EstiloWindown = styled.div`
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     height: 400px;
-    max-width: 400px;
-    width: 95%;
+    width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

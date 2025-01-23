@@ -11,7 +11,6 @@ import { motion } from 'framer-motion'
 const Certificado = () => {
   return (
     <section className="certificado">
-      <Navegation pagina="cursos" />
       <Globalcss />
       <Interface>
         <motion.div

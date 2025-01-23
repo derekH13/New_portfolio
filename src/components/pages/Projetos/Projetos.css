@@ -1,18 +1,19 @@
-.Projetos{
+.Projetos {
   background-image: url(../../../images/projetos.png);
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 100vh;
+  min-height: 180vh;
   position: relative;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 @media (max-width: 697px) {
-  .Projetos{
+  .Projetos {
+    min-height: 100vh;
     background-image: url(../../../images/projetos.png);
-    padding-top: 20px;
+    padding-top: 60px;
   }
 }

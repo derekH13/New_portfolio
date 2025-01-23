@@ -9,7 +9,6 @@ import Navegation from '../../Component/Navegation/Navegation'
 const Projetos = () => {
   return (
     <>
-      <Navegation pagina="projetos" />
       <section className="Projetos">
         <Globalcss />
         <Interface>
